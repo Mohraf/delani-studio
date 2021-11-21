@@ -13,6 +13,10 @@ p {
   height: 100vh;
 }
 
+.services {
+  background: url("../images/backgrounds/s_image.jpg") center no-repeat;
+}
+
 .contact {
-  background: url("../images/backgrounds/c_image.jpg");
+  background: url("../images/backgrounds/c_image.jpg") center no-repeat;
 }
