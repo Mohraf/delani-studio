@@ -9,7 +9,7 @@ p {
 }
 
 .hero {
-  background: url("../images/backgrounds/h_img.jpg");
+  background: url("../images/backgrounds/h_img.jpg") center no-repeat;
   height: 100vh;
 }
 
