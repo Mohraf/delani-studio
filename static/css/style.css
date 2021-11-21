@@ -9,5 +9,5 @@ p {
 }
 
 .contact {
-  background: url("/static/images/backgrounds/c_image.jpg");
+  background: url("../images/backgrounds/c_image.jpg");
 }
