@@ -8,6 +8,11 @@ p {
   font-weight: 300;
 }
 
+.hero {
+  background: url("../images/backgrounds/h_img.jpg");
+  height: 100vh;
+}
+
 .contact {
   background: url("../images/backgrounds/c_image.jpg");
 }
