@@ -3,16 +3,16 @@ $("#development-description").hide();
 $("#product-management-description").hide();
 
 $("#design").hover(() => {
-  // $("#design-description").hide();
-  $("#design-description").toggle();
-  // $("#design").hide();
-  // $("#design-description").show();
+  $("#design").replaceWith($("#design-description"));
+  $("#design-description").show();
 });
 
 $("#development").hover(() => {
-  $("#development-description").toggle();
+  $("#development").replaceWith($("#development-description"));
+  $("#development-description").show();
 });
 
 $("#product-management").hover(() => {
-  $("#product-management-description").toggle();
+  $("#product-management").replaceWith($("#product-management-description"));
+  $("#product-management-description").show();
 });
